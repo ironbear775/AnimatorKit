@@ -12,7 +12,9 @@
 ![image](https://github.com/ironbear775/AnimatorKit/blob/main/pic/demo6.gif)
 
 ## 集成
+
 [![](https://jitpack.io/v/ironbear775/AnimatorKit.svg)](https://jitpack.io/#ironbear775/AnimatorKit)
+
 ### Step 1. Add the JitPack repository to your build file
 
 Add it in your root build.gradle at the end of repositories:
