@@ -31,7 +31,7 @@ allprojects {
 ### Step 2. Add the dependency
 ```groovy
 dependencies {
-	implementation 'com.github.ironbear775:AnimatorKit:1.0.0'
+	implementation 'com.github.ironbear775:AnimatorKit:1.0.1'
 }
 ```
 
