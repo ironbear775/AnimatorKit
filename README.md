@@ -4,12 +4,12 @@
 
 支持对单个View，多个View设置动画，支持设置顺序播放，同时播放及混合播放动画。
 
-![image](https://github.com/ironbear775/AnimatorKit/blob/master/pic/demo1.gif)
-![image](https://github.com/ironbear775/AnimatorKit/blob/master/pic/demo2.gif)
-![image](https://github.com/ironbear775/AnimatorKit/blob/master/pic/demo3.gif)
-![image](https://github.com/ironbear775/AnimatorKit/blob/master/pic/demo4.gif)
-![image](https://github.com/ironbear775/AnimatorKit/blob/master/pic/demo5.gif)
-![image](https://github.com/ironbear775/AnimatorKit/blob/master/pic/demo6.gif)
+![image](https://github.com/ironbear775/AnimatorKit/blob/main/pic/demo1.gif)
+![image](https://github.com/ironbear775/AnimatorKit/blob/main/pic/demo2.gif)
+![image](https://github.com/ironbear775/AnimatorKit/blob/main/pic/demo3.gif)
+![image](https://github.com/ironbear775/AnimatorKit/blob/main/pic/demo4.gif)
+![image](https://github.com/ironbear775/AnimatorKit/blob/main/pic/demo5.gif)
+![image](https://github.com/ironbear775/AnimatorKit/blob/main/pic/demo6.gif)
 
 ## 快速入门
 ### 给一个View添加动画
