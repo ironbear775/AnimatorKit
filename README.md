@@ -19,7 +19,7 @@
 
 Add it in your root build.gradle at the end of repositories:
 
-```
+```groovy
 allprojects {
 	repositories {
 		...
@@ -29,7 +29,7 @@ allprojects {
 ```
 
 ### Step 2. Add the dependency
-```
+```groovy
 dependencies {
 	implementation 'com.github.ironbear775:AnimatorKit:1.0.0'
 }
@@ -46,7 +46,7 @@ dependencies {
 
 ### 声明动画
 1. 单个动画，使用`singleAnimator(animator: BaseValueAnimator)` 。
-``` 
+```kotlin
 //对animationView1设置一个旋转动画
 
 AnimatorKit
@@ -59,7 +59,7 @@ AnimatorKit
     .build()
 ```
 2. 多个动画，同时播放，使用`playTogether(vararg animators: BaseAnimator)` ,参数为需要同时播放的动画。
-```
+```kotlin
 //对animationView1设置多个同时播放的动画： scale + translationY + alpha
 
 AnimatorKit
@@ -87,7 +87,7 @@ AnimatorKit
     .build()
 ```
 3. 多个动画，顺序播放，使用`playSequentially(vararg animators: BaseAnimator)` ,参数为需要顺序播放的动画。
-```
+```kotlin
 //给animationView1设置顺序动画，播放顺序为rotate -> translationX -> rangeFloat
 
 AnimatorKit
@@ -102,7 +102,7 @@ AnimatorKit
     .build()
 ```
 4. 多个动画混合播放，使用`playSequentially(vararg animators: BaseAnimator)`搭配`TogetherAnimator`完成，其内部可容纳多个动画同时播放。
-```
+```kotlin
 //给animationView1设置混合动画，播放顺序为rotate -> 同时播放(scale+alpha) -> translationX -> rangeFloat
 
 AnimatorKit
@@ -127,7 +127,7 @@ AnimatorKit
 除TogetherAnimator为特殊容器，本身不作为动画，其余动画都是Android中的属性动画，并且支持属性动画中所支持的属性。
 
 ##### 单一属性动画支持的属性
-```
+```kotlin
 TranslationXAnimator(0f, 100f).apply {
     pivotX = 0f
     pivotY = 20f
